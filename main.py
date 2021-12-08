@@ -40,6 +40,7 @@ async def on_message(message):
       await help_.blog_help(channel)
     else:
       await help_.command_help(channel, user_message[1])
+  
   elif user_message[0] == "$usernotify":
     if len(user_message) < 3:
       await send_message(channel, "Missing arguments!")
@@ -50,6 +51,7 @@ async def on_message(message):
         await user.notify_rating_change(channel, user_message[2])
       else:
         await send_message(channel, "Wrong arguments!")
+  
   elif user_message[0] == "$userstop":
     if len(user_message) < 3:
       await send_message(channel, "Missing arguments!")
@@ -60,6 +62,7 @@ async def on_message(message):
         await user.stop_rating_change(channel, user_message[2])
       else:
         await send_message(channel, "Wrong arguments!")
+  
   elif user_message[0] == "$userlist":
     if len(user_message) < 2:
       await send_message(channel, "Missing arguments!")
@@ -70,16 +73,19 @@ async def on_message(message):
         await user.list_rating_change(channel)
       else:
         await send_message(channel, "Wrong arguments!")
+  
   elif user_message[0] == "$blognotify":
     if len(user_message) < 2:
       await send_message(channel, "Missing arguments!")
     else:
       await blog.notify_blog_changes(channel, user_message[1])
+  
   elif user_message[0] == "$blogstop":
     if len(user_message) < 2:
       await send_message(channel, "Wrong arguments!")
     else:
       await blog.stop_blog_changes(channel, user_message[1])
+  
   elif user_message[0] == "$bloglist":
     await blog.list_blog_changes(channel)
 
