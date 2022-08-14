@@ -12,13 +12,13 @@ CodeforcesNotifier is a discord bot to get notifications for user and blog.
 
 ## Screenshots
 
-![](/screenshots/help-example-1.jpg)
-![](/screenshots/usernotify-all-example-1.jpg)
-![](/screenshots/blognotify-example-1.jpg)
-![](/screenshots/userlist-all-example-1.jpg)
-![](/screenshots/rating-change-example-1.jpg)
-![](/screenshots/friendcount-change-example-1.jpg)
-![](/screenshots/contribution-change-example-1.jpg)
-![](/screenshots/new-comment-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/help-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/usernotify-all-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/blognotify-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/userlist-all-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/rating-change-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/friendcount-change-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/contribution-change-example-1.jpg)
+![](/screenshots%20-%20discord%20bot/new-comment-example-1.jpg)
 
 - For more screenshots [see here](/screenshots).
